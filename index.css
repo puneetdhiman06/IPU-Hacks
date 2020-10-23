@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+#girl-svg {
+  width: 60%;
+  height: 80vh;
+  background: #E5E5E5;
+  margin: 20vh 0vh 0vh 40%;
+  z-index: -4;
+}
+
+#girl {
+  z-index: -2;
+}
+
+#bg {
+  z-index: -3;
+}
+
+#dot1 {
+  -webkit-animation: dot-ani 7s infinite alternate ease;
+          animation: dot-ani 7s infinite alternate ease;
+  transfrom-origin: center;
+  transform-box: fill-box;
+  z-index: 2;
+}
+
+@-webkit-keyframes dot-ani {
+  from {
+    transfrom: scale(1);
+  }
+  to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@keyframes dot-ani {
+  from {
+    transfrom: scale(1);
+  }
+  to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+#dot2 {
+  -webkit-animation: dot-ani 6s infinite alternate ease;
+          animation: dot-ani 6s infinite alternate ease;
+  transfrom-origin: center;
+  transform-box: fill-box;
+  z-index: 2;
+}
+
+#dot3 {
+  -webkit-animation: dot-ani 9s infinite alternate ease;
+          animation: dot-ani 9s infinite alternate ease;
+  transfrom-origin: center;
+  transform-box: fill-box;
+  z-index: 2;
+}
+
+#dot4 {
+  -webkit-animation: dot-ani 11s infinite alternate ease;
+          animation: dot-ani 11s infinite alternate ease;
+  transfrom-origin: center;
+  transform-box: fill-box;
+  z-index: 2;
+}
+
+#cloud1 {
+  -webkit-animation: cloud-ani 6s linear infinite alternate;
+          animation: cloud-ani 6s linear infinite alternate;
+}
+
+@-webkit-keyframes cloud-ani {
+  from {
+    -webkit-transform: translate(15%, 0px);
+            transform: translate(15%, 0px);
+  }
+  to {
+    transfrom: translate(-15%, 0px);
+  }
+}
+
+@keyframes cloud-ani {
+  from {
+    -webkit-transform: translate(15%, 0px);
+            transform: translate(15%, 0px);
+  }
+  to {
+    transfrom: translate(-15%, 0px);
+  }
+}
+
+#cloud2 {
+  -webkit-animation: cloud-ani 8s linear infinite alternate;
+          animation: cloud-ani 8s linear infinite alternate;
+}
+
+#cloud3 {
+  -webkit-animation: cloud-ani 9s linear infinite alternate;
+          animation: cloud-ani 9s linear infinite alternate;
+}
+
+#heading {
+  color: #827cff;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 100px;
+}
+
+#heading-txt {
+  color: #ada9f3;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-size: 50px;
+}
+
+#div2 {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+#sub-div-2 {
+  text-align: right;
+  color: #ada9f3;
+  font-size: 50px;
+  position: relative;
+  top: -30vh;
+  left: -25vh;
+}
+
+#question {
+  -webkit-animation: ques 2s ease infinite alternate;
+          animation: ques 2s ease infinite alternate;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+@-webkit-keyframes ques {
+  from {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  to {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+@keyframes ques {
+  from {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  to {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+}
+
+#task1 {
+  -webkit-animation: task-ani 2s ease infinite alternate;
+          animation: task-ani 2s ease infinite alternate;
+}
+
+#task2 {
+  -webkit-animation: task-ani 1s ease infinite alternate;
+          animation: task-ani 1s ease infinite alternate;
+}
+
+#task3 {
+  -webkit-animation: task-ani 3s ease infinite alternate;
+          animation: task-ani 3s ease infinite alternate;
+}
+
+@-webkit-keyframes task-ani {
+  from {
+    -webkit-transform: translate(0%, -2.5%);
+            transform: translate(0%, -2.5%);
+  }
+  to {
+    -webkit-transition: translate(0%, 2.5%);
+    transition: translate(0%, 2.5%);
+  }
+}
+
+@keyframes task-ani {
+  from {
+    -webkit-transform: translate(0%, -2.5%);
+            transform: translate(0%, -2.5%);
+  }
+  to {
+    -webkit-transition: translate(0%, 2.5%);
+    transition: translate(0%, 2.5%);
+  }
+}
+
+#sub-div-3 {
+  color: #ada9f3;
+  position: absolute;
+  left: 10%;
+  font-size: 50px;
+}
+
+#div-3 {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+#future-svg {
+  text-align: right;
+  margin-top: -15%;
+}
+
+#box1, #box2 {
+  -webkit-animation: box-ani .5s infinite alternate;
+          animation: box-ani .5s infinite alternate;
+  transition-origin: center;
+  transform-box: fill-box;
+}
+
+#box3, #box5 {
+  -webkit-animation: box2-ani .5s infinite alternate;
+          animation: box2-ani .5s infinite alternate;
+  transition-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes box-ani {
+  from {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+  }
+  to {
+    -webkit-transition: rotate(30deg);
+    transition: rotate(30deg);
+  }
+}
+
+@keyframes box-ani {
+  from {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+  }
+  to {
+    -webkit-transition: rotate(30deg);
+    transition: rotate(30deg);
+  }
+}
+
+@-webkit-keyframes box2-ani {
+  from {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+  to {
+    -webkit-transition: rotate(-30deg);
+    transition: rotate(-30deg);
+  }
+}
+
+@keyframes box2-ani {
+  from {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+  to {
+    -webkit-transition: rotate(-30deg);
+    transition: rotate(-30deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */
